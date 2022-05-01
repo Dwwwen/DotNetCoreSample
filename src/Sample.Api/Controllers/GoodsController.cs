@@ -1,12 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Sample.Api.Controllers
+namespace Sample.Api.Controllers;
+
+public class GoodsController : Controller
 {
-    public class GoodsController : Controller
+    public IActionResult Index()
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        return View();
     }
 }
