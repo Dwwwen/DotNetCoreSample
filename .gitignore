@@ -1,1 +1,4 @@
 .suo
+obj
+bin
+launchSettings.json
