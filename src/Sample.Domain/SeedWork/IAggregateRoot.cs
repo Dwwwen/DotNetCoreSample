@@ -1,5 +1,5 @@
 ﻿namespace Sample.Domain.SeedWork;
 
-internal interface IAggregateRoot
+public interface IAggregateRoot
 {
 }
